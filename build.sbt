@@ -1,4 +1,5 @@
 import Dependencies._
+import com.typesafe.sbt.packager.docker.ExecCmd
 
 ThisBuild / scalaVersion     := "3.1.2"
 ThisBuild / version          := "0.1.0"
@@ -47,10 +48,15 @@ val commonSettings = List(
   )
 )
 
+
+
 def dockerSettings(name: String) = List(
   Docker / packageName := s"trading-$name",
   dockerBaseImage      := "openjdk:17-alpine",
   dockerExposedPorts ++= List(8080),
+  dockerCommands := Seq(
+    ExecCmd("RUN", "apk", "--no-cache", "add", "curl")
+  ),
   makeBatScripts     := Nil,
   dockerUpdateLatest := true
 )
