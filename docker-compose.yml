@@ -124,7 +124,7 @@ services:
         condition: service_healthy
     healthcheck:
       test: ["CMD", "curl", "-f", "http://0.0.0.0:9000/health"]
-      interval: 10s
+      interval: 2s
       timeout: 5s
       retries: 15
       start_period: 2m
@@ -191,12 +191,12 @@ services:
       - REDIS_URI=redis://redis
       - PULSAR_URI=pulsar://pulsar:6650
     depends_on:
-      pulsar:
-        condition: service_healthy
+#      pulsar:
+#        condition: service_healthy
       redis:
         condition: service_healthy
-#      ws-server:
-#        condition: service_healthy
+      ws-server:
+        condition: service_healthy
     healthcheck:
       test: ["CMD", "curl", "-f", "http://0.0.0.0:9002/health"]
       interval: 10s
@@ -267,9 +267,9 @@ services:
     environment:
       - HTTP_PORT=9001
       - PULSAR_URI=pulsar://pulsar:6650
-#    depends_on:
-#      pulsar:
-#        condition: service_healthy
+    depends_on:
+      pulsar:
+        condition: service_healthy
 #      alerts:
 #        condition: service_healthy
 #      processor:

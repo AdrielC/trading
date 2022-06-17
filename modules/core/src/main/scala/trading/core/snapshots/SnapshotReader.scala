@@ -14,14 +14,16 @@ import dev.profunktor.redis4cats.{ Redis, RedisCommands }
 import io.circe.parser.decode as jsonDecode
 
 trait SnapshotReader[F[_]]:
+
   def latest: F[Option[(TradeState, Consumer.MsgId)]]
+
 
 object SnapshotReader:
   def from[F[_]: MonadThrow](
       redis: RedisCommands[F, String, String]
   ): SnapshotReader[F] = new:
     def getLastId: F[Option[Consumer.MsgId]] =
-      redis.get("trading-last-id").map(_.map(Consumer.MsgId.from))
+      redis.get("trading-last-id").map(_.flatMap(s => (Consumer.MsgId.from(s)).toOption))
 
     def getStatus: F[TradingStatus] =
       redis.get("trading-status").map {

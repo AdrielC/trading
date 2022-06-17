@@ -17,6 +17,7 @@ import io.circe.parser.decode as jsonDecode
 import org.apache.kafka.clients.consumer.OffsetAndMetadata
 import org.apache.kafka.common.TopicPartition
 import org.apache.pulsar.client.api.{ DeadLetterPolicy, MessageId }
+import scala.util.Try
 
 trait Consumer[F[_], A] extends Acker[F, A]:
   def receiveM: Stream[F, Consumer.Msg[A]]
@@ -43,9 +44,9 @@ object Consumer:
   type Properties = Map[String, String]
 
   object MsgId:
-    def earliest: MsgId          = MsgId.Pulsar(MessageId.earliest)
-    def latest: MsgId            = MsgId.Pulsar(MessageId.latest)
-    def from(str: String): MsgId = MsgId.Pulsar(MessageId.fromByteArray(str.getBytes(UTF_16BE)))
+    def earliest: MsgId               = MsgId.Pulsar(MessageId.earliest)
+    def latest: MsgId                 = MsgId.Pulsar(MessageId.latest)
+    def from(str: String): Try[MsgId] = Try(MsgId.Pulsar(MessageId.fromByteArray(str.getBytes(UTF_16BE))))
 
   final case class Msg[A](id: MsgId, props: Properties, payload: A)
 
