@@ -35,7 +35,7 @@ spec:
               command:
                 - curl
                 - -f
-                - http://localhost:8080/admin/v2/brokers/health
+                - http://0.0.0.0:8080/admin/v2/brokers/health
             failureThreshold: 15
             initialDelaySeconds: 120
             periodSeconds: 2

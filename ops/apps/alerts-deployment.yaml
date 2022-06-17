@@ -39,7 +39,7 @@ spec:
               command:
                 - curl
                 - -f
-                - http://localhost:9004/health
+                - http://0.0.0.0:9004/health
             failureThreshold: 15
             initialDelaySeconds: 120
             periodSeconds: 2
