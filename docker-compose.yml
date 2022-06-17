@@ -191,12 +191,12 @@ services:
       - REDIS_URI=redis://redis
       - PULSAR_URI=pulsar://pulsar:6650
     depends_on:
-#      pulsar:
-#        condition: service_healthy
+      pulsar:
+        condition: service_healthy
       redis:
         condition: service_healthy
-      ws-server:
-        condition: service_healthy
+#      ws-server:
+#        condition: service_healthy
     healthcheck:
       test: ["CMD", "curl", "-f", "http://0.0.0.0:9002/health"]
       interval: 10s
