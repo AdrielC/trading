@@ -20,7 +20,7 @@ services:
     volumes:
       - ./pulsarconf/standalone.conf:/pulsar/conf/standalone.conf
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/admin/v2/brokers/health"]
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:8080/admin/v2/brokers/health"]
       interval: 2s
       timeout: 5s
       retries: 15
@@ -80,7 +80,7 @@ services:
       - tracing:tracing
       - ws-server:ws-server
     healthcheck:
-      test: ["CMD", "wget", "--tries=1", "--spider", "http://localhost:9090"]
+      test: ["CMD", "wget", "--tries=1", "--spider", "http://0.0.0.0:9090"]
       interval: 2s
       timeout: 5s
       retries: 15
@@ -102,7 +102,7 @@ services:
       prometheus:
         condition: service_healthy
     healthcheck:
-      test: ["CMD", "wget", "--tries=1", "--spider", "http://localhost:3000/api/health"]
+      test: ["CMD", "wget", "--tries=1", "--spider", "http://0.0.0.0:3000/api/health"]
       interval: 2s
       timeout: 5s
       retries: 15
@@ -123,8 +123,8 @@ services:
       pulsar:
         condition: service_healthy
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9000/health"]
-      interval: 2s
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:9000/health"]
+      interval: 10s
       timeout: 5s
       retries: 15
       start_period: 2m
@@ -145,11 +145,11 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
-      ws-server:
-        condition: service_healthy
+#      ws-server:
+#        condition: service_healthy
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9004/health"]
-      interval: 2s
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:9004/health"]
+      interval: 10s
       timeout: 5s
       retries: 15
       start_period: 2m
@@ -170,11 +170,11 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
-      ws-server:
-        condition: service_healthy
+#      ws-server:
+#        condition: service_healthy
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9003/health"]
-      interval: 2s
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:9003/health"]
+      interval: 10s
       timeout: 5s
       retries: 15
       start_period: 2m
@@ -195,11 +195,11 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
-      ws-server:
-        condition: service_healthy
+#      ws-server:
+#        condition: service_healthy
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9002/health"]
-      interval: 2s
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:9002/health"]
+      interval: 10s
       timeout: 5s
       retries: 15
       start_period: 2m
@@ -215,20 +215,20 @@ services:
       - HTTP_PORT=9005
       - PULSAR_URI=pulsar://pulsar:6650
       - HONEYCOMB_API_KEY=${HONEYCOMB_API_KEY}
-    depends_on:
-      pulsar:
-        condition: service_healthy
-      alerts:
-        condition: service_healthy
-      processor:
-        condition: service_healthy
-      snapshots:
-        condition: service_healthy
-      ws-server:
-        condition: service_healthy
+#    depends_on:
+#      pulsar:
+#        condition: service_healthy
+#      alerts:
+#        condition: service_healthy
+#      processor:
+#        condition: service_healthy
+#      snapshots:
+#        condition: service_healthy
+#      ws-server:
+#        condition: service_healthy
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9005/health"]
-      interval: 2s
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:9005/health"]
+      interval: 10s
       timeout: 5s
       retries: 15
       start_period: 2m
@@ -246,41 +246,41 @@ services:
     depends_on:
       pulsar:
         condition: service_healthy
-      ws-server:
-        condition: service_healthy
+#      ws-server:
+#        condition: service_healthy
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9006/health"]
-      interval: 2s
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:9006/health"]
+      interval: 10s
       timeout: 5s
       retries: 15
       start_period: 2m
 
-  # Does not work yet because of issues with sbt-native-packager (it depends on a test dependency).
-  # Comment out the feed service if you don't want random data generation running in Docker
-  #feed:
-    #restart: always
-    #image: trading-feed:latest
-    #ports:
-      #- "9001:9001"
-    #networks:
-      #- app
-    #environment:
-      #- HTTP_PORT=9001
-      #- PULSAR_URI=pulsar://pulsar:6650
-    #depends_on:
-      #pulsar:
-        #condition: service_healthy
-      #alerts:
-        #condition: service_healthy
-      #processor:
-        #condition: service_healthy
-      #snapshots:
-        #condition: service_healthy
-      #ws-server:
-        #condition: service_healthy
-    #healthcheck:
-      #test: ["CMD", "curl", "-f", "http://localhost:9001/health"]
-      #interval: 2s
-      #timeout: 5s
-      #retries: 15
-      #start_period: 2m
+#   Does not work yet because of issues with sbt-native-packager (it depends on a test dependency).
+#   Comment out the feed service if you don't want random data generation running in Docker
+  feed:
+    restart: always
+    image: trading-feed:latest
+    ports:
+      - "9001:9001"
+    networks:
+      - app
+    environment:
+      - HTTP_PORT=9001
+      - PULSAR_URI=pulsar://pulsar:6650
+#    depends_on:
+#      pulsar:
+#        condition: service_healthy
+#      alerts:
+#        condition: service_healthy
+#      processor:
+#        condition: service_healthy
+#      snapshots:
+#        condition: service_healthy
+#      ws-server:
+#        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:9001/health"]
+      interval: 2s
+      timeout: 5s
+      retries: 15
+      start_period: 2m

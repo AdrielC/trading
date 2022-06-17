@@ -17,7 +17,7 @@ object Config:
   def load[F[_]: Async]: F[FeedConfig] =
     (
       env("HTTP_PORT").as[Port].default(port"9001"),
-      env("PULSAR_URI").as[PulsarURI].fallback("pulsar://localhost:6650")
+      env("PULSAR_URI").as[PulsarURI].fallback("pulsar://0.0.0.0:6650")
     ).parMapN { (port, pulsarUri) =>
       val pulsar =
         PulsarConfig.Builder

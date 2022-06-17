@@ -13,7 +13,7 @@ object Dependencies {
     val fs2Core       = "3.2.8"
     val fs2Kafka      = "2.4.0"
     val http4s        = "1.0.0-M33"
-    val http4sMetrics = "0.23.12"
+    val http4sMetrics = "1.0.0-M32"
     val http4sWs      = "1.0.0-M1"
     val kittens       = "3.0.0-M4"
     val monocle       = "3.1.0"
@@ -24,13 +24,14 @@ object Dependencies {
     val redis4cats    = "1.2.0"
     val refined       = "0.9.29"
 
-    val scalajsTime = "2.4.0-M1"
-    val tyrian      = "0.5.0"
+    val scalajsTime   = "2.4.0-M1"
+    val tyrian        = "0.5.0"
 
-    val scalacheck = "1.16.0"
-    val weaver     = "0.7.12"
+    val scalacheck    = "1.16.0"
+    val weaver        = "0.7.12"
 
     val organizeImports = "0.6.0"
+    val slf4j         = "1.7.1"
   }
 
   object Libraries {
@@ -87,11 +88,12 @@ object Dependencies {
     val weaverDiscipline = "com.disneystreaming" %% "weaver-discipline" % V.weaver
     val weaverScalaCheck = "com.disneystreaming" %% "weaver-scalacheck" % V.weaver
 
+    val slf4j = "org.slf4j" % "slf4j-log4j12" % V.slf4j
+
     // only for demo
     val fs2Kafka = "com.github.fd4s" %% "fs2-kafka" % V.fs2Kafka
 
     // scalafix rules
     val organizeImports = "com.github.liancheng" %% "organize-imports" % V.organizeImports
   }
-
 }

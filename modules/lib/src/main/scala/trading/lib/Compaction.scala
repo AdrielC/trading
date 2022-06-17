@@ -12,35 +12,42 @@ import dev.profunktor.pulsar.{ MessageKey, ShardKey }
   *
   * For `KeyShared` subscriptions, see the [[Shard]] typeclass.
   */
-trait Compaction[A]:
+trait Compaction[A] {
   def key: A => MessageKey
+}
 
-object Compaction:
-  def apply[A: Compaction]: Compaction[A] = summon
+object Compaction {
+  def apply[A: Compaction]: Compaction[A] = implicitly[Compaction[A]]
 
-  def default[A]: Compaction[A] = new:
-    val key: A => MessageKey = _ => MessageKey.Empty
+  def default[A]: Compaction[A] = new Compaction[A] {
+    override def key: A => MessageKey = _ => MessageKey.Empty
+  }
 
   def by(s: String): MessageKey = MessageKey.Of(s)
 
-  given Compaction[PriceUpdate] with
+  given Compaction[PriceUpdate] with {
     val key: PriceUpdate => MessageKey = p => by(p.symbol.show)
+  }
 
-  given Compaction[SwitchCommand] with
+  given Compaction[SwitchCommand] with {
     val key: SwitchCommand => MessageKey = {
       case _: SwitchCommand.Start => by("start")
       case _: SwitchCommand.Stop  => by("stop")
     }
+  }
 
-  given Compaction[SwitchEvent] with
+  given Compaction[SwitchEvent] with {
     val key: SwitchEvent => MessageKey = {
       case _: SwitchEvent.Started => by("started")
       case _: SwitchEvent.Stopped => by("stopped")
       case _: SwitchEvent.Ignored => by("ignored")
     }
+  }
 
-  given Compaction[Alert] with
+  given Compaction[Alert] with {
     val key: Alert => MessageKey = {
       case a: Alert.TradeAlert  => by(a.symbol.show)
       case a: Alert.TradeUpdate => by(a.status.show)
     }
+  }
+}

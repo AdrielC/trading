@@ -22,7 +22,7 @@ object Config:
     GenUUID[F].make[UUID].flatMap { uuid =>
       (
         env("HTTP_PORT").as[Port].default(port"9003"),
-        env("PULSAR_URI").as[PulsarURI].fallback("pulsar://localhost:6650").covary[F]
+        env("PULSAR_URI").as[PulsarURI].fallback("pulsar://0.0.0.0:6650").covary[F]
       ).parMapN { (port, pulsarUri) =>
         val pulsar =
           PulsarConfig.Builder

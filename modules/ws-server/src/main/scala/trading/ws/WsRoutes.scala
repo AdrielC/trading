@@ -13,11 +13,11 @@ final class WsRoutes[F[_]: GenUUID: Logger: Monad](
     ws: WebSocketBuilder[F],
     mkHandler: SocketId => F[Handler[F]]
 ) extends Http4sDsl[F]:
-
   // format: off
   val routes: HttpRoutes[F] = HttpRoutes.of {
     case GET -> Root / "v1" / "ws" =>
       GenUUID[F].make[SocketId]
         .flatMap(mkHandler)
         .flatMap(h => ws.build(h.send, h.receive))
+    case GET -> Root / "health" => Ok()
   }

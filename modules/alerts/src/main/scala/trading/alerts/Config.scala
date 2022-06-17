@@ -23,8 +23,8 @@ object Config:
     GenUUID[F].make[UUID].flatMap { uuid =>
       (
         env("HTTP_PORT").as[Port].default(port"9004"),
-        env("PULSAR_URI").as[PulsarURI].fallback("pulsar://localhost:6650"),
-        env("REDIS_URI").as[RedisURI].fallback("redis://localhost").covary[F]
+        env("PULSAR_URI").as[PulsarURI].fallback("pulsar://0.0.0.0:6650"),
+        env("REDIS_URI").as[RedisURI].fallback("redis://0.0.0.0").covary[F]
       ).parMapN { (port, pulsarUri, redisUri) =>
         val pulsar =
           PulsarConfig.Builder

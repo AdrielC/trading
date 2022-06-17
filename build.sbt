@@ -40,11 +40,12 @@ val commonSettings = List(
     Libraries.redis4catsEffects,
     Libraries.refinedCore.value,
     Libraries.refinedCats.value,
-    Libraries.monocleLaw       % Test,
-    Libraries.scalacheck       % Test,
-    Libraries.weaverCats       % Test,
-    Libraries.weaverDiscipline % Test,
-    Libraries.weaverScalaCheck % Test
+    Libraries.slf4j,
+    Libraries.monocleLaw,       // % Test,
+    Libraries.scalacheck,       // % Test,
+    Libraries.weaverCats,       // % Test,
+    Libraries.weaverDiscipline, // % Test,
+    Libraries.weaverScalaCheck, // % Test
   )
 )
 
@@ -52,11 +53,8 @@ val commonSettings = List(
 
 def dockerSettings(name: String) = List(
   Docker / packageName := s"trading-$name",
-  dockerBaseImage      := "openjdk:17-alpine",
+  dockerBaseImage      := "openjdk:17-slim-buster",
   dockerExposedPorts ++= List(8080),
-  dockerCommands := Seq(
-    ExecCmd("RUN", "apk", "--no-cache", "add", "curl")
-  ),
   makeBatScripts     := Nil,
   dockerUpdateLatest := true
 )

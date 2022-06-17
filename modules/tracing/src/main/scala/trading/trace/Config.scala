@@ -24,7 +24,7 @@ object Config:
   def load[F[_]: Async]: F[TracingConfig] =
     (
       env("HTTP_PORT").as[Port].default(port"9005"),
-      env("PULSAR_URI").as[PulsarURI].fallback("pulsar://localhost:6650"),
+      env("PULSAR_URI").as[PulsarURI].fallback("pulsar://0.0.0.0:6650"),
       env("HONEYCOMB_API_KEY").as[HoneycombApiKey]
     ).parMapN { (port, pulsarUri, apiKey) =>
       val pulsar =

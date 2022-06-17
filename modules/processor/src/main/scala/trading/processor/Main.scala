@@ -13,12 +13,14 @@ import trading.lib.{ given, * }
 import trading.state.TradeState
 
 import cats.effect.*
-import cats.syntax.all.*
+import cats.implicits.*
 import dev.profunktor.pulsar.{ Config as _, Consumer as PulsarConsumer, Producer as PulsarProducer, * }
 import dev.profunktor.pulsar.transactions.PulsarTx
 import fs2.Stream
+import org.http4s.HttpRoutes
+import org.http4s.dsl.Http4sDsl
 
-object Main extends IOApp.Simple:
+object Main extends IOApp.Simple with Http4sDsl[IO]:
   def run: IO[Unit] =
     Stream
       .resource(resources)
@@ -66,16 +68,21 @@ object Main extends IOApp.Simple:
       .withMessageKey(Compaction[SwitchEvent].key)
       .some
 
+  val otherRoutes = HttpRoutes.of[IO] {
+    case GET -> Root => Ok("Hello")
+  }
+
   def resources =
     for
       config <- Resource.eval(Config.load[IO])
       pulsar <- Pulsar.make[IO](config.pulsar.url, Pulsar.Settings().withTransactions)
       _      <- Resource.eval(Logger[IO].info(s"Initializing service: ${config.appId.show}"))
-      server   = Ember.default[IO](config.httpPort)
+      server   = Ember.routes[IO](config.httpPort, otherRoutes)
       cmdTopic = AppTopic.TradingCommands.make(config.pulsar)
       evtTopic = AppTopic.TradingEvents.make(config.pulsar)
       swcTopic = AppTopic.SwitchCommands.make(config.pulsar)
       sweTopic = AppTopic.SwitchEvents.make(config.pulsar)
+      _      <- Resource.eval(Logger[IO].info(s"Creating consumers/producers: ${config.appId.show}"))
       trProducer <- Producer.pulsar[IO, TradeEvent](pulsar, evtTopic, evtSettings)
       swProducer <- Producer.pulsar[IO, SwitchEvent](pulsar, sweTopic, swtSettings)
       trConsumer <- Consumer.pulsar[IO, TradeCommand](pulsar, cmdTopic, cmdSub(config.appId))
