@@ -1,0 +1,745 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(docker:publishLocal, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: alerts / Docker / publishLocal, snapshots / Docker / publishLocal, core / Docker / publishLocal, feed / Docker / publishLocal, forecasts / Docker / publishLocal, processor / Docker / publishLocal, domainJVM / Docker / publishLocal, domainJS / Docker / publishLocal, tracing / Docker / publishLocal, ws / Docker / publishLocal, lib / Docker / publishLocal, demo / Docker / publishLocal, Docker / publishLocal[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt 0.13 shell syntax is deprecated; use slash syntax instead: alerts / Docker / publishLocal, snapshots / Docker / publishLocal, core / Docker / publishLocal, feed / Docker / publishLocal, forecasts / Docker / publishLocal, processor / Docker / publishLocal, domainJVM / Docker / publishLocal, domainJS / Docker / publishLocal, tracing / Docker / publishLocal, ws / Docker / publishLocal, lib / Docker / publishLocal, demo / Docker / publishLocal, Docker / publishLocal[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/target/scala-3.1.2/trading-app_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/domain/js/target/scala-3.1.2/domain_sjs1_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/lib/target/scala-3.1.2/lib_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/core/target/scala-3.1.2/core_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/domain_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/snapshots_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/ws-server/target/scala-3.1.2/ws_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/forecasts/target/scala-3.1.2/forecasts_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/feed_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/alerts/target/scala-3.1.2/alerts_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/tracing/target/scala-3.1.2/tracing_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/processor_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/x-demo/target/scala-3.1.2/demo_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#trading-app_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 17:27:14 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/poms/trading-app_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/poms/trading-app_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/poms/trading-app_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/poms/trading-app_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/jars/trading-app_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/jars/trading-app_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/jars/trading-app_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/jars/trading-app_3.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/srcs/trading-app_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/srcs/trading-app_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/srcs/trading-app_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/srcs/trading-app_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/docs/trading-app_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/docs/trading-app_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/docs/trading-app_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/docs/trading-app_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/domain/js/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/lib/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/core/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/ws-server/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/alerts/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/forecasts/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/tracing/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[33mwarn[0m] [0m[0mmultiple main classes detected: run 'show discoveredMainClasses' to see the list[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/x-demo/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#lib_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 17:27:24 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/lib/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/poms/lib_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/poms/lib_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/poms/lib_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/poms/lib_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/jars/lib_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/jars/lib_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/jars/lib_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/jars/lib_3.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/srcs/lib_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/srcs/lib_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/srcs/lib_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/srcs/lib_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/docs/lib_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/docs/lib_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/docs/lib_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/docs/lib_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#core_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 17:27:24 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/core/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/poms/core_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/poms/core_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/poms/core_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/poms/core_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/jars/core_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/jars/core_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/jars/core_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/jars/core_3.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/srcs/core_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/srcs/core_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/srcs/core_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/srcs/core_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/docs/core_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/docs/core_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/docs/core_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/docs/core_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#domain_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 17:27:26 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/poms/domain_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/poms/domain_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/poms/domain_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/poms/domain_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/jars/domain_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/jars/domain_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/jars/domain_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/jars/domain_3.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/srcs/domain_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/srcs/domain_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/srcs/domain_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/srcs/domain_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/docs/domain_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/docs/domain_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/docs/domain_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/docs/domain_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#domain_sjs1_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 17:27:26 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/domain/js/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/poms/domain_sjs1_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/poms/domain_sjs1_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/poms/domain_sjs1_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/poms/domain_sjs1_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/jars/domain_sjs1_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/jars/domain_sjs1_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/jars/domain_sjs1_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/jars/domain_sjs1_3.jar[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/srcs/domain_sjs1_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/srcs/domain_sjs1_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/srcs/domain_sjs1_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/srcs/domain_sjs1_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/docs/domain_sjs1_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/docs/domain_sjs1_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/docs/domain_sjs1_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/docs/domain_sjs1_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#demo_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 17:27:27 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/x-demo/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/poms/demo_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/poms/demo_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/poms/demo_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/poms/demo_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/jars/demo_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/jars/demo_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/jars/demo_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/jars/demo_3.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/srcs/demo_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/srcs/demo_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/srcs/demo_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/srcs/demo_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/docs/demo_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/docs/demo_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/docs/demo_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/docs/demo_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:89de84aab32c35811c4aa3a3ec7659218a0087b4a2ec0fd8dfb6d01b3cce67a5[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 997B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:078b83977ced2dcb9c87562264339db024ff261d8a73db58589601661be98303[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 993B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:971b1cc8857763e6867efd6439e5e2244e46f1200f833278e68321ebf6e0f29b[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 991B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:11056e9d7707c7ee4df9de9e469da6cbd9ad66b3c1689a6bbb5233060b3e855b[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 983B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:12760fc19fb19a0948ace82ad6592a1280476675a33d581a97f472714e1345d0[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 987B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:65f8847ef8f079d3f19e8529165fc57670f446a3bcafdaa4824f53ef2114a8d4[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:a16bc51e3781ee616afa2f9f2cf3b25ab4b536cc7835efe91f5490926237c007[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 997B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:f3c10da2d4a5e734f0f7ef6b9c115fd0c747f3e52af71b2d8cb36d0da1143cdd[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 997B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:9f4c9ecbbd3075b8a0cddd5fb11b937a3ee020bcd4e9c50af28c9531ce6b3439[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:35a66f8d8a03c5f465b6ea1dc2210e020c655e4151afafe269c5f89968e61105[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:98e48595b2f4be61578dfb54f507908d9ed83c7f0620b4b7313873cb28389b95[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:17-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c6b4214edece6a4722c0ce776f20013cc53a8c2c4d3507321e9a98bb9f36f8ab[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:64ae4ab5d6d67a8060802684baede4a7f328c8eb1cbbecf489f2888013f49c6a[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:2ad710e9032770fe7dcb580989b85a42017e1f7c4e92996870ca11223734c10b[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:7b9ce8efba4eb6445042b5ab29f76114e95aaee5e8c0db7a0227f966399a0e56[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:17-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c6b4214edece6a4722c0ce776f20013cc53a8c2c4d3507321e9a98bb9f36f8ab[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:17-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c6b4214edece6a4722c0ce776f20013cc53a8c2c4d3507321e9a98bb9f36f8ab[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:17-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c6b4214edece6a4722c0ce776f20013cc53a8c2c4d3507321e9a98bb9f36f8ab[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:17-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c6b4214edece6a4722c0ce776f20013cc53a8c2c4d3507321e9a98bb9f36f8ab[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:17-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c6b4214edece6a4722c0ce776f20013cc53a8c2c4d3507321e9a98bb9f36f8ab[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:17-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c6b4214edece6a4722c0ce776f20013cc53a8c2c4d3507321e9a98bb9f36f8ab[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [auth] library/openjdk:pull token for registry-1.docker.io[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:688086de922f24f7f14a01e7d398fe543bd55bee7cfd6df01ed2647dcd9c4860[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:17-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c6b4214edece6a4722c0ce776f20013cc53a8c2c4d3507321e9a98bb9f36f8ab[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 1.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [stage0 1/7] FROM docker.io/library/openjdk:17-alpine@sha256:4b6abae565492dbe9e7a894137c966a7485154238902f2f25e9dbd9784383d81[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:35f401bed1c40e494a6f54b96ecdf18809300d576d51a465eb9a6e74c1b3a4fd[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:32e7a6f8180e455bb9e3ce67895c9a251170330d1699962d37dbfb1a7dcdc0a0[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [stage0 1/7] FROM docker.io/library/openjdk:17-alpine@sha256:4b6abae565492dbe9e7a894137c966a7485154238902f2f25e9dbd9784383d81[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:35f401bed1c40e494a6f54b96ecdf18809300d576d51a465eb9a6e74c1b3a4fd[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:20f352510b5441b9ab4d2909c21b902f16c80d18833434259d7063c1220a3ff9[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [stage0 1/7] FROM docker.io/library/openjdk:17-alpine@sha256:4b6abae565492dbe9e7a894137c966a7485154238902f2f25e9dbd9784383d81[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:35f401bed1c40e494a6f54b96ecdf18809300d576d51a465eb9a6e74c1b3a4fd[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:5cd756ab20a50351d0eb3499fd0a6bac3a87be1653c7852bb1e1cb342b8b4f19[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 1.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [stage0 1/7] FROM docker.io/library/openjdk:17-alpine@sha256:4b6abae565492dbe9e7a894137c966a7485154238902f2f25e9dbd9784383d81[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:35f401bed1c40e494a6f54b96ecdf18809300d576d51a465eb9a6e74c1b3a4fd[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:c20f92d79383b8a09cec65f97818212b614896e09cd5ca1303b3226016ad09f7[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [stage0 1/7] FROM docker.io/library/openjdk:17-alpine@sha256:4b6abae565492dbe9e7a894137c966a7485154238902f2f25e9dbd9784383d81[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:35f401bed1c40e494a6f54b96ecdf18809300d576d51a465eb9a6e74c1b3a4fd[0m
+[0m[[0m[31merror[0m] [0m[0m#5 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:915cf239dcdd587821366917d783910709d0e91b4cfd028e490c2fe2aa0f326f[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:17-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c6b4214edece6a4722c0ce776f20013cc53a8c2c4d3507321e9a98bb9f36f8ab[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [stage0 1/7] FROM docker.io/library/openjdk:17-alpine@sha256:4b6abae565492dbe9e7a894137c966a7485154238902f2f25e9dbd9784383d81[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:17-alpine[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:35f401bed1c40e494a6f54b96ecdf18809300d576d51a465eb9a6e74c1b3a4fd[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c6b4214edece6a4722c0ce776f20013cc53a8c2c4d3507321e9a98bb9f36f8ab[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:3e2bbbbb893e6365b390c4a50383d108f4459c92a257810e1ced4ba528a0959c[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [stage0 1/7] FROM docker.io/library/openjdk:17-alpine@sha256:4b6abae565492dbe9e7a894137c966a7485154238902f2f25e9dbd9784383d81[0m
+[0m[[0m[31merror[0m] [0m[0m#14 sha256:35f401bed1c40e494a6f54b96ecdf18809300d576d51a465eb9a6e74c1b3a4fd[0m
+[0m[[0m[31merror[0m] [0m[0m#14 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#15 sha256:1422f080890dced81228d587f34365b86a187e4fb4f9e407f402e8d0adeea333[0m
+[0m[[0m[31merror[0m] [0m[0m#8 transferring context: 1.80MB 0.3s done[0m
+[0m[[0m[31merror[0m] [0m[0m#8 transferring context: 1.49MB 0.3s done[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [stage0 2/7] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:1c5602f961ceffa214be34dd031e2c43a1ad83b8ba366f2515fa3e4bbd73c446[0m
+[0m[[0m[31merror[0m] [0m[0m#15 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [stage0 2/7] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:1c5602f961ceffa214be34dd031e2c43a1ad83b8ba366f2515fa3e4bbd73c446[0m
+[0m[[0m[31merror[0m] [0m[0m#6 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#15 sha256:1422f080890dced81228d587f34365b86a187e4fb4f9e407f402e8d0adeea333[0m
+[0m[[0m[31merror[0m] [0m[0m#9 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [stage0 2/7] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:1c5602f961ceffa214be34dd031e2c43a1ad83b8ba366f2515fa3e4bbd73c446[0m
+[0m[[0m[31merror[0m] [0m[0m#8 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:915cf239dcdd587821366917d783910709d0e91b4cfd028e490c2fe2aa0f326f[0m
+[0m[[0m[31merror[0m] [0m[0m#8 transferring context: 1.48MB 0.3s done[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [stage0 2/7] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:1c5602f961ceffa214be34dd031e2c43a1ad83b8ba366f2515fa3e4bbd73c446[0m
+[0m[[0m[31merror[0m] [0m[0m#7 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [stage0 3/7] COPY 2/opt /2/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:b358145908f581400df73717757f8228aa76c5f9d60e16592305e8abacacd137[0m
+[0m[[0m[31merror[0m] [0m[0m#8 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [stage0 2/7] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:1c5602f961ceffa214be34dd031e2c43a1ad83b8ba366f2515fa3e4bbd73c446[0m
+[0m[[0m[31merror[0m] [0m[0m#7 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:c20f92d79383b8a09cec65f97818212b614896e09cd5ca1303b3226016ad09f7[0m
+[0m[[0m[31merror[0m] [0m[0m#8 transferring context: 1.48MB 0.3s done[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [stage0 2/7] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:1c5602f961ceffa214be34dd031e2c43a1ad83b8ba366f2515fa3e4bbd73c446[0m
+[0m[[0m[31merror[0m] [0m[0m#7 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [stage0 2/7] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:1c5602f961ceffa214be34dd031e2c43a1ad83b8ba366f2515fa3e4bbd73c446[0m
+[0m[[0m[31merror[0m] [0m[0m#7 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#7 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [stage0 3/7] COPY 2/opt /2/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:6a2fd7a70cdd606daa816e9173f0eba6a95843a608376a6cc53c05f0eb0b9201[0m
+[0m[[0m[31merror[0m] [0m[0m#8 transferring context: 5.95MB 0.7s done[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [stage0 3/7] COPY 2/opt /2/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:0866aa29a44e8680419524d964c9b4737d4d7c6a23108da7059ca182fa4c3b57[0m
+[0m[[0m[31merror[0m] [0m[0m#15 transferring context: 7.48MB 0.7s done[0m
+[0m[[0m[31merror[0m] [0m[0m#15 DONE 0.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [stage0 3/7] COPY 2/opt /2/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:f42d4e306b012fff75c0c6f4f1ed8c36e945a960ebd4cf1b6c5077fa6d0d651c[0m
+[0m[[0m[31merror[0m] [0m[0m#9 transferring context: 9.97MB 0.8s done[0m
+[0m[[0m[31merror[0m] [0m[0m#9 DONE 0.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [stage0 3/7] COPY 2/opt /2/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#10 sha256:9e677875703b96dcab9649942709019b2ae8205ff9ebf2ecaccd107832ef8462[0m
+[0m[[0m[31merror[0m] [0m[0m#9 DONE 3.6s[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [stage0 4/7] COPY 4/opt /4/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#10 sha256:e8a3d1d14eb18e8a4208daff4e8cf958ae3bb40703dc4215b7b785ddeb04fcb1[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [stage0 3/7] COPY 2/opt /2/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:127295c15bc91d46732d03991ed2f3d725456a39e3a512090b9f5b8dbc2540e0[0m
+[0m[[0m[31merror[0m] [0m[0m#9 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [stage0 4/7] COPY 4/opt /4/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#10 sha256:a2e6d1f2954314ca53128947784040624212ff0e53e93d1dfa5402c8afc4461d[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [stage0 3/7] COPY 2/opt /2/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:b4ed7685cd8d8321249bc1bcc0fbb085264a317b50e651eee13c8df012839cd5[0m
+[0m[[0m[31merror[0m] [0m[0m#9 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [stage0 4/7] COPY 4/opt /4/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#10 sha256:ca7234205c04ea9e9f2e37745806fafec9054a4c6b5555ee71e89b06f201cb91[0m
+[0m[[0m[31merror[0m] [0m[0m#9 DONE 3.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [stage0 4/7] COPY 4/opt /4/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#10 sha256:e1d594153aa1b8f2ae6e8f150c12228a6598ac3a703ab05be9e84ee56a140d99[0m
+[0m[[0m[31merror[0m] [0m[0m#10 DONE 0.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#10 DONE 0.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 5/7] RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#11 sha256:abc77af905a101d91d69694f20e4e3235780efd36395b5e324c5bc4d66ac67a2[0m
+[0m[[0m[31merror[0m] [0m[0m#7 DONE 3.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [stage0 4/7] COPY 4/opt /4/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:451fb4d8250da4825c5968b6920bf98a018c56e2a0a76b0c7cdf4209590cea4c[0m
+[0m[[0m[31merror[0m] [0m[0m#10 DONE 0.6s[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 5/7] RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#11 sha256:296af2f66b88c80ec6ab6a2952764ce4482909049fc6b0738d6e1357f21eb2c2[0m
+[0m[[0m[31merror[0m] [0m[0m#9 DONE 3.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [stage0 4/7] COPY 4/opt /4/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#10 sha256:a8e38ee4141a2843f82a488a7641822cbdfcff7748c605993680033b37396660[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 5/7] RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#11 sha256:cc411308ed66ff9365ce7f28bd56032ad8d349a305d7a07efb4cc4042ec6c933[0m
+[0m[[0m[31merror[0m] [0m[0m#10 DONE 3.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 4/7] COPY 4/opt /4/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#11 sha256:d64cf50c81e729e2ed3a8ba9d8339b9774c0491775b967cd04f4ad9144f26f8e[0m
+[0m[[0m[31merror[0m] [0m[0m#10 DONE 0.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 5/7] RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#11 sha256:b698277d88c79a14d150d78fd75489bbffd38486ac69deded48ac8aa34918f73[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [stage0 5/7] RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:57694ea19f69cd6956c93ea60f1f82d539e75a0ef8a68f017bb116b34f47f9be[0m
+[0m[[0m[31merror[0m] [0m[0m#10 DONE 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 5/7] RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#11 sha256:6433995c972149f22c959168e5739bf64f515b7fce11c466f4447f4a68edf622[0m
+[0m[[0m[31merror[0m] [0m[0m#11 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [stage0 5/7] RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#12 sha256:24fa48cf0e33410c8df5cf7e605fc24e2bf884b58db34b5eac06e469dc4a207f[0m
+[0m[[0m[31merror[0m] [0m[0m#11 DONE 2.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [stage0 6/7] RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#12 sha256:f4600bb5b7223242c88af6839d0867728550412b6f7d13775bc0599ac338459c[0m
+[0m[[0m[31merror[0m] [0m[0m#11 DONE 2.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [stage0 6/7] RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#12 sha256:11827363f7f5b319b02c276289548dbd0f68647406c41dc8e9cfd5f2264f0ede[0m
+[0m[[0m[31merror[0m] [0m[0m#11 DONE 2.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [stage0 6/7] RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#12 sha256:796b44e40ad19f89268d330f79eb69ccaa4a0916eea1f1fa38032d3add81bca4[0m
+[0m[[0m[31merror[0m] [0m[0m#11 DONE 2.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#12 DONE 0.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [stage0 6/7] RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#13 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/snapshots"][0m
+[0m[[0m[31merror[0m] [0m[0m#12 sha256:b22a1e0ae590ca1760acd0f4e6aa30a76ac944864d8d1d8e1f541860a992752a[0m
+[0m[[0m[31merror[0m] [0m[0m#13 sha256:5d36b603d529eb9522adc9cfc669394cf7fdcfc6e0f19b17662ded47e45296a9[0m
+[0m[[0m[31merror[0m] [0m[0m#9 DONE 3.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#11 DONE 3.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [stage0 6/7] RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#12 sha256:20d1e184c0ce39a9e82ed55f8ec2ad1228af6421428b8c482393a30bb31eb76b[0m
+[0m[[0m[31merror[0m] [0m[0m#12 DONE 3.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 [stage0 6/7] RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#13 sha256:1c3e9c0eeb6aa6847bc7c63ddc374be61ec2c9a3a55063809e850e6cbd27cf28[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [stage0 6/7] RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#10 sha256:bbcfe804964380ed935979a1a68db10eff87c6fcbe1d4dd22ff355aac6a306de[0m
+[0m[[0m[31merror[0m] [0m[0m#12 DONE 0.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/processor"][0m
+[0m[[0m[31merror[0m] [0m[0m#13 sha256:95334c23874eca14a93cb491a26f6b6152337937da643845c319f5b45dbdafdb[0m
+[0m[[0m[31merror[0m] [0m[0m#12 DONE 0.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/alerts"][0m
+[0m[[0m[31merror[0m] [0m[0m#13 sha256:c9f4d66d94cd873ffb44569d05c773614d17d3706746eac70d83229a00bec4bc[0m
+[0m[[0m[31merror[0m] [0m[0m#12 DONE 1.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 DONE 1.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/ws"][0m
+[0m[[0m[31merror[0m] [0m[0m#13 sha256:2a4418ef2e067b6430735fc9c4be6b80a00dd99e57677d4161d65fad163ff5e7[0m
+[0m[[0m[31merror[0m] [0m[0m#12 DONE 1.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/tracing"][0m
+[0m[[0m[31merror[0m] [0m[0m#13 sha256:b480cfbc5690fdac81ae7b4a54b6efa842e7bd996afb99c54f03f8f93ed4cf98[0m
+[0m[[0m[31merror[0m] [0m[0m#13 DONE 1.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/forecasts"][0m
+[0m[[0m[31merror[0m] [0m[0m#14 sha256:81061ec262aa0b51c58966725f60b59d7e9d52aa4c5df312a8c7c37a6faefead[0m
+[0m[[0m[31merror[0m] [0m[0m#10 DONE 1.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/feed"][0m
+[0m[[0m[31merror[0m] [0m[0m#11 sha256:991b76b05ac1f1c43cd76006ab1c4e9c7c4037f2a30ba7554f81699013d66d03[0m
+[0m[[0m[31merror[0m] [0m[0m#13 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 DONE 1.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 DONE 0.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#11 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:13214fa4332dbcc25b83c410149f259c26aed5354a786f0c577e8c336756e926[0m
+[0m[[0m[31merror[0m] [0m[0m#4 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [mainstage 3/5] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:7b339c4f9882064f668b44b43b1b17c2c6150ec0f9057ee4dda34f107aefe072[0m
+[0m[[0m[31merror[0m] [0m[0m#5 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[31merror[0m] [0m[0m#13 DONE 0.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:13214fa4332dbcc25b83c410149f259c26aed5354a786f0c577e8c336756e926[0m
+[0m[[0m[31merror[0m] [0m[0m#5 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [mainstage 3/5] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:13214fa4332dbcc25b83c410149f259c26aed5354a786f0c577e8c336756e926[0m
+[0m[[0m[31merror[0m] [0m[0m#5 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:7b339c4f9882064f668b44b43b1b17c2c6150ec0f9057ee4dda34f107aefe072[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [mainstage 3/5] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#6 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:7b339c4f9882064f668b44b43b1b17c2c6150ec0f9057ee4dda34f107aefe072[0m
+[0m[[0m[31merror[0m] [0m[0m#6 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:13214fa4332dbcc25b83c410149f259c26aed5354a786f0c577e8c336756e926[0m
+[0m[[0m[31merror[0m] [0m[0m#5 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [mainstage 3/5] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:7b339c4f9882064f668b44b43b1b17c2c6150ec0f9057ee4dda34f107aefe072[0m
+[0m[[0m[31merror[0m] [0m[0m#6 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:13214fa4332dbcc25b83c410149f259c26aed5354a786f0c577e8c336756e926[0m
+[0m[[0m[31merror[0m] [0m[0m#5 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [mainstage 3/5] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:7b339c4f9882064f668b44b43b1b17c2c6150ec0f9057ee4dda34f107aefe072[0m
+[0m[[0m[31merror[0m] [0m[0m#6 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#14 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:13214fa4332dbcc25b83c410149f259c26aed5354a786f0c577e8c336756e926[0m
+[0m[[0m[31merror[0m] [0m[0m#6 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [mainstage 3/5] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:7b339c4f9882064f668b44b43b1b17c2c6150ec0f9057ee4dda34f107aefe072[0m
+[0m[[0m[31merror[0m] [0m[0m#7 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:13214fa4332dbcc25b83c410149f259c26aed5354a786f0c577e8c336756e926[0m
+[0m[[0m[31merror[0m] [0m[0m#5 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [mainstage 3/5] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:7b339c4f9882064f668b44b43b1b17c2c6150ec0f9057ee4dda34f107aefe072[0m
+[0m[[0m[31merror[0m] [0m[0m#6 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [mainstage 4/5] COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#14 sha256:1d5b34b97017f5ed7210c0c138716343271223a13a56c273a1c19a2652a3c20b[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/feed"][0m
+[0m[[0m[31merror[0m] [0m[0m#11 sha256:991b76b05ac1f1c43cd76006ab1c4e9c7c4037f2a30ba7554f81699013d66d03[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/forecasts"][0m
+[0m[[0m[31merror[0m] [0m[0m#14 sha256:81061ec262aa0b51c58966725f60b59d7e9d52aa4c5df312a8c7c37a6faefead[0m
+[0m[[0m[31merror[0m] [0m[0m#14 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#11 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [mainstage 4/5] COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#14 sha256:bb6a99ab31be8ca9881e104b102a95b4312f5a5b0043d0e3b11e02a268a49268[0m
+[0m[[0m[31merror[0m] [0m[0m#14 DONE 0.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [mainstage 4/5] COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#14 sha256:e739343ebb4afb0ced9d0b8cac9b4c323232893281fae9562100c980f3410eb8[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [mainstage 4/5] COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#14 sha256:9c2cee2100616e1e0934aa374699eea9d5cc31f70a6804224413944d66e0cf93[0m
+[0m[[0m[31merror[0m] [0m[0m#14 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [mainstage 5/5] COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#15 sha256:71e0bf0e038dfc32b34938131357f4fdcf788db8d2a6e88f129299e750e17cde[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [mainstage 5/5] COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#15 sha256:8c45e24edb6ca3ff3b88f6a4b29fcc844e6331308a343c254c1a641677274372[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [mainstage 4/5] COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#14 sha256:4b4a149aee40dd4b327827d072e304b8c91dfc861fada9d1f841737a60e52cfe[0m
+[0m[[0m[31merror[0m] [0m[0m#14 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [mainstage 5/5] COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#15 sha256:1bb55235ef73ed146469b2d824317ec90a3eadaa9520c8d90344f2f12a5e696f[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [mainstage 4/5] COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#12 sha256:26cc1583798ca5a4abdc1076e123262a0c223534ef3fd2feb4eca8a5ab3ee67e[0m
+[0m[[0m[31merror[0m] [0m[0m#15 DONE 1.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#15 DONE 1.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#14 DONE 1.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#15 DONE 1.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [mainstage 4/5] COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#15 sha256:fda8e49b5933721323ced6fdc31052b5e0b3276aceb3b1554e1a707de69fdbc9[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#16 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#16 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [mainstage 5/5] COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#15 sha256:e2b729f8b9772c9173c94ca817c0659afd6ef39c1c917c03f3a797ee1c8905c3[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#16 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers[0m
+[0m[[0m[31merror[0m] [0m[0m#14 DONE 1.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [mainstage 5/5] COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#15 sha256:5718cf79eabe3a54b69f816e22761a0b823d1d56c5c5196136f660db519d5e9f[0m
+[0m[[0m[31merror[0m] [0m[0m#15 DONE 0.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#16 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers[0m
+[0m[[0m[31merror[0m] [0m[0m#12 DONE 1.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 [mainstage 5/5] COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#13 sha256:1989cd007f95ad6188c6031168edcdf048026283d01add38f64a35bf5cf5ebe3[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers 1.1s done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 writing image sha256:aa1b1a3a7c5a882f302361898058ceac9f5bd9d8bfcb12f843c6b93c93ad4321 done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-alerts:0.1.0 done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-alerts:latest done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers 1.1s done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 writing image sha256:55addfefece90d67aa2d068b9b0b20acb5ca96f3e32ae182af799a343ef4893a done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-snapshots:0.1.0 done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-snapshots:latest done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers 1.1s done[0m
+[0m[[0m[31merror[0m] [0m[0m#15 DONE 1.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#16 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers[0m
+[0m[[0m[31merror[0m] [0m[0m#15 DONE 1.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#16 [mainstage 5/5] COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#16 sha256:1de2e292db86249697caa7b33b7154b64bdd1e108298d91f23fd8264e3cdd98b[0m
+[0m[[0m[31merror[0m] [0m[0m#16 writing image sha256:a237a625a96e5f30ac849cabc7573a35e6f926baa90d102602a35e3e31e3bda5 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-processor:0.1.0 done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-processor:latest done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 DONE 1.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 DONE 0.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers 1.2s done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#16 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers[0m
+[0m[[0m[31merror[0m] [0m[0m#16 DONE 0.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#17 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#17 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
+[0m[[0m[31merror[0m] [0m[0m#17 exporting layers[0m
+[0m[[0m[31merror[0m] [0m[0m#16 writing image sha256:b72a47b908a87d6e492e9cbbd32a7d57af6a474506a1a87b86f8c7d825301d49 done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-ws:0.1.0 done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-ws:latest 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 DONE 1.4s[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=4ffb26d9-f4eb-483f-8551-bb7c839305bf") [0m
+[0m[[0m[31merror[0m] [0m[0mUse 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=833a0fbb-a2ba-464e-b21c-940bc67fe521") [0m
+[0m[[0m[31merror[0m] [0m[0mUse 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=f1647f3b-1a29-450c-9038-c64618a0f6d9") [0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=eda387b1-3f30-487e-b0d0-037228bbb920") [0m
+[0m[[0m[31merror[0m] [0m[0mError response from daemon: a prune operation is already running[0m
+[0m[[0m[31merror[0m] [0m[0mError response from daemon: a prune operation is already running[0m
+[0m[[0m[31merror[0m] [0m[0mError response from daemon: a prune operation is already running[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 0B[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image trading-alerts with tags [0.1.0, latest][0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image trading-ws with tags [0.1.0, latest][0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image trading-snapshots with tags [0.1.0, latest][0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image trading-processor with tags [0.1.0, latest][0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers 1.5s done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 writing image sha256:fa1b92d923cae8e43018d5836de11c2c5fc385f75d9ab79c993cbd144b1df01d done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-tracing:0.1.0 done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-tracing:latest done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 DONE 1.5s[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=3853aa5c-771c-4538-802d-da096b88ff86") [0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers 1.4s done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 writing image sha256:93acf39e17859acf3473e19ef850879941d939857bc4c0c0014073b1de4ddf95 done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-feed:0.1.0 done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-feed:latest done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 DONE 1.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#17 exporting layers 1.5s done[0m
+[0m[[0m[31merror[0m] [0m[0m#17 writing image sha256:a33745350620281350b08ff0ce3f3b33b6fd89f2bdb955f347b990740ffe279c done[0m
+[0m[[0m[31merror[0m] [0m[0m#17 naming to docker.io/library/trading-forecasts:0.1.0 done[0m
+[0m[[0m[31merror[0m] [0m[0m#17 naming to docker.io/library/trading-forecasts:latest done[0m
+[0m[[0m[31merror[0m] [0m[0m#17 DONE 1.5s[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 0B[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image trading-tracing with tags [0.1.0, latest][0m
+[0m[[0m[31merror[0m] [0m[0mUse 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=a5007c3d-38f5-49b6-a498-08742972119f") [0m
+[0m[[0m[31merror[0m] [0m[0mUse 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=d6d769aa-7da4-42d7-95d1-97c7f887c0ff") [0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 0B[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image trading-feed with tags [0.1.0, latest][0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 0B[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image trading-forecasts with tags [0.1.0, latest][0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 35 s, completed Jun 16, 2022, 5:27:47 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

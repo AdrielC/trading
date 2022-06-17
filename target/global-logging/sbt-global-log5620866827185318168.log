@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: alerts / Compile / compile, snapshots / Compile / compile, core / Compile / compile, feed / Compile / compile, forecasts / Compile / compile, processor / Compile / compile, domainJVM / Compile / compile, domainJS / Compile / compile, tracing / Compile / compile, ws / Compile / compile, lib / Compile / compile, demo / Compile / compile, Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/core/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 10 s, completed Jun 16, 2022, 9:35:56 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

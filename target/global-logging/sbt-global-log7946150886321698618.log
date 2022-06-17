@@ -1,0 +1,453 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(docker:publishLocal, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: alerts / Docker / publishLocal, snapshots / Docker / publishLocal, core / Docker / publishLocal, feed / Docker / publishLocal, forecasts / Docker / publishLocal, processor / Docker / publishLocal, domainJVM / Docker / publishLocal, domainJS / Docker / publishLocal, tracing / Docker / publishLocal, ws / Docker / publishLocal, lib / Docker / publishLocal, demo / Docker / publishLocal, Docker / publishLocal[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt 0.13 shell syntax is deprecated; use slash syntax instead: alerts / Docker / publishLocal, snapshots / Docker / publishLocal, core / Docker / publishLocal, feed / Docker / publishLocal, forecasts / Docker / publishLocal, processor / Docker / publishLocal, domainJVM / Docker / publishLocal, domainJS / Docker / publishLocal, tracing / Docker / publishLocal, ws / Docker / publishLocal, lib / Docker / publishLocal, demo / Docker / publishLocal, Docker / publishLocal[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/target/scala-3.1.2/trading-app_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/domain_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/lib/target/scala-3.1.2/lib_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/core/target/scala-3.1.2/core_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/domain/js/target/scala-3.1.2/domain_sjs1_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/alerts/target/scala-3.1.2/alerts_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/ws-server/target/scala-3.1.2/ws_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/feed_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/processor_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/tracing/target/scala-3.1.2/tracing_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/snapshots_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/forecasts/target/scala-3.1.2/forecasts_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/x-demo/target/scala-3.1.2/demo_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#trading-app_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:35:20 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/poms/trading-app_3.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/jars/trading-app_3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/srcs/trading-app_3-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/docs/trading-app_3-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 28 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 28 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/domain/js/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 13 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/lib/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/domain/js/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 8 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/core/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/lib/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#domain_sjs1_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:35:45 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/domain/js/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#domain_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:35:45 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/poms/domain_3.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/jars/domain_3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/srcs/domain_3-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/docs/domain_3-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/poms/domain_sjs1_3.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/jars/domain_sjs1_3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/srcs/domain_sjs1_3-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/docs/domain_sjs1_3-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#lib_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:35:47 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/lib/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/poms/lib_3.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/jars/lib_3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/srcs/lib_3-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/docs/lib_3-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/core/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/alerts/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/ws-server/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 8 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/forecasts/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 7 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/tracing/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#core_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:35:52 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/core/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/poms/core_3.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/jars/core_3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/srcs/core_3-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/docs/core_3-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/ws-server/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/alerts/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[33mwarn[0m] [0m[0m[1] sbt-native-packager wasn't able to identify the docker version. Some features may not be enabled[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt-native packager tries to parse the `docker version` output. This can fail if[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - the output has changed:[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ docker version --format '{{.Server.APIVersion}}'[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - no `docker` executable is available[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ which docker[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - you have not the required privileges to run `docker`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mYou can display the parsed docker version in the sbt console with:[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  sbt:your-project> show dockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mAs a last resort you could hard code the docker version, but it's not recommended!![0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  import com.typesafe.sbt.packager.docker.DockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  dockerApiVersion := Some(DockerApiVersion(1, 40))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          [0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[1] sbt-native-packager wasn't able to identify the docker version. Some features may not be enabled[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt-native packager tries to parse the `docker version` output. This can fail if[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - the output has changed:[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ docker version --format '{{.Server.APIVersion}}'[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - no `docker` executable is available[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ which docker[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - you have not the required privileges to run `docker`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mYou can display the parsed docker version in the sbt console with:[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  sbt:your-project> show dockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mAs a last resort you could hard code the docker version, but it's not recommended!![0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  import com.typesafe.sbt.packager.docker.DockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  dockerApiVersion := Some(DockerApiVersion(1, 40))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          [0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/tracing/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 15 Scala sources to /Users/adriel/Documents/GitHub/trading/modules/x-demo/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[33mwarn[0m] [0m[0m[1] sbt-native-packager wasn't able to identify the docker version. Some features may not be enabled[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt-native packager tries to parse the `docker version` output. This can fail if[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - the output has changed:[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ docker version --format '{{.Server.APIVersion}}'[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - no `docker` executable is available[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ which docker[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - you have not the required privileges to run `docker`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mYou can display the parsed docker version in the sbt console with:[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  sbt:your-project> show dockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mAs a last resort you could hard code the docker version, but it's not recommended!![0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  import com.typesafe.sbt.packager.docker.DockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  dockerApiVersion := Some(DockerApiVersion(1, 40))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          [0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/forecasts/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[1] sbt-native-packager wasn't able to identify the docker version. Some features may not be enabled[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt-native packager tries to parse the `docker version` output. This can fail if[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - the output has changed:[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ docker version --format '{{.Server.APIVersion}}'[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - no `docker` executable is available[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ which docker[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - you have not the required privileges to run `docker`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mYou can display the parsed docker version in the sbt console with:[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  sbt:your-project> show dockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mAs a last resort you could hard code the docker version, but it's not recommended!![0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  import com.typesafe.sbt.packager.docker.DockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  dockerApiVersion := Some(DockerApiVersion(1, 40))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          [0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[33mwarn[0m] [0m[0m[1] sbt-native-packager wasn't able to identify the docker version. Some features may not be enabled[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt-native packager tries to parse the `docker version` output. This can fail if[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - the output has changed:[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ docker version --format '{{.Server.APIVersion}}'[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - no `docker` executable is available[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ which docker[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - you have not the required privileges to run `docker`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mYou can display the parsed docker version in the sbt console with:[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  sbt:your-project> show dockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mAs a last resort you could hard code the docker version, but it's not recommended!![0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  import com.typesafe.sbt.packager.docker.DockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  dockerApiVersion := Some(DockerApiVersion(1, 40))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          [0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[1] sbt-native-packager wasn't able to identify the docker version. Some features may not be enabled[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt-native packager tries to parse the `docker version` output. This can fail if[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - the output has changed:[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ docker version --format '{{.Server.APIVersion}}'[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - no `docker` executable is available[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ which docker[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - you have not the required privileges to run `docker`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mYou can display the parsed docker version in the sbt console with:[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  sbt:your-project> show dockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mAs a last resort you could hard code the docker version, but it's not recommended!![0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  import com.typesafe.sbt.packager.docker.DockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  dockerApiVersion := Some(DockerApiVersion(1, 40))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          [0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=4e4ee140-3088-4eab-b750-72f7592d9b46") [0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=10e67f60-395b-415e-8f95-050d79559a24") [0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=f313c509-5952-46c8-b255-f2053e0ab85e") [0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[1] sbt-native-packager wasn't able to identify the docker version. Some features may not be enabled[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt-native packager tries to parse the `docker version` output. This can fail if[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - the output has changed:[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ docker version --format '{{.Server.APIVersion}}'[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - no `docker` executable is available[0m
+[0m[[0m[33mwarn[0m] [0m[0m    $ which docker[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  - you have not the required privileges to run `docker`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mYou can display the parsed docker version in the sbt console with:[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  sbt:your-project> show dockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mAs a last resort you could hard code the docker version, but it's not recommended!![0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  import com.typesafe.sbt.packager.docker.DockerApiVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  dockerApiVersion := Some(DockerApiVersion(1, 40))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          [0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=38ecbe44-5d75-4dea-8692-cea180dafcb8") [0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=ff9825a1-0091-491b-b60d-877b18315f1d") [0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=eb91fa1c-0703-499b-8854-643c02f22510") [0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=11109d9b-fca7-472d-a9f4-82c9e1e517b8") [0m
+[0m[[0m[31merror[0m] [0m[0mCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[33mwarn[0m] [0m[0mmultiple main classes detected: run 'show discoveredMainClasses' to see the list[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/adriel/Documents/GitHub/trading/modules/x-demo/target/scala-3.1.2/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mSkipping unused scalacOptions: -Werror, -Xsemanticdb, -Ykind-projector, -semanticdb-target, -source[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#demo_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:36:07 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/x-demo/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/poms/demo_3.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/jars/demo_3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/srcs/demo_3-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/docs/demo_3-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0m(alerts / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(snapshots / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(feed / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(forecasts / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(processor / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(tracing / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(ws / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 49 s, completed Jun 16, 2022, 11:36:07 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

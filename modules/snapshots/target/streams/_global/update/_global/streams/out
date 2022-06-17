@@ -1,0 +1,9 @@
+[debug] not up to date. inChanged = true, force = false
+[debug] Updating snapshots...
+[debug] Done updating snapshots
+[warn] found version conflict(s) in library dependencies; some are suspected to be binary incompatible:
+[warn] 	* org.http4s:http4s-core_3:1.0.0-M33 (early-semver) is selected over 1.0.0-M32
+[warn] 	    +- org.http4s:http4s-server_3:1.0.0-M33               (depends on 1.0.0-M33)
+[warn] 	    +- org.http4s:http4s-dsl_3:1.0.0-M33                  (depends on 1.0.0-M33)
+[warn] 	    +- org.http4s:http4s-ember-core_3:1.0.0-M33           (depends on 1.0.0-M33)
+[warn] 	    +- org.http4s:http4s-prometheus-metrics_3:1.0.0-M32   (depends on 1.0.0-M32)

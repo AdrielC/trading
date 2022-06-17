@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: alerts / Compile / compile, snapshots / Compile / compile, core / Compile / compile, feed / Compile / compile, forecasts / Compile / compile, processor / Compile / compile, domainJVM / Compile / compile, domainJS / Compile / compile, tracing / Compile / compile, ws / Compile / compile, lib / Compile / compile, demo / Compile / compile, Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/adriel/Documents/GitHub/trading/modules/tracing/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/adriel/Documents/GitHub/trading/modules/tracing/src/main/scala/trading/trace/Main.scala:86:50 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m86 |[0m      server = Ember.default[[35mIO[0m](config.httpPort) [33myield[0m ([0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                  [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                    unindent expected, but 'yield' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E020] Syntax Error: /Users/adriel/Documents/GitHub/trading/modules/tracing/src/main/scala/trading/trace/Main.scala:97:1 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m97 |[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m   | [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   | [33myield[0m or [33mdo[0m expected[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/adriel/Documents/GitHub/trading/modules/tracing/src/main/scala/trading/trace/Main.scala:68:16 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m68 |[0m      config <- Resource.eval(Config.load[IO])[0m
+[0m[[0m[31merror[0m] [0m[0m   |                [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value foreach is not a member of cats.effect.kernel.Resource[cats.effect.IO, trading.trace.TracingConfig][0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/adriel/Documents/GitHub/trading/modules/tracing/src/main/scala/trading/trace/Main.scala:23:26 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m      .resource(resources)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                          [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |Could not find an instance of Monad for ([_] =>> Any)[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |One of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import fs2.Compiler.Target.forConcurrent[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import fs2.Compiler.Target.forSync[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: compile[0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: compile[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'last' for the full log.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

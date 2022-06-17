@@ -1,5 +1,5 @@
 project/boot
-target
+#target
 .ensime
 .ensime_lucene
 .ensime_cache

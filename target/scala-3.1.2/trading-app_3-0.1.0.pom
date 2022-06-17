@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>dev.profunktor</groupId>
+    <artifactId>trading-app_3</artifactId>
+    <packaging>jar</packaging>
+    <description>trading-app</description>
+    <version>0.1.0</version>
+    <name>trading-app</name>
+    <organization>
+        <name>ProfunKtor</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala3-library_3</artifactId>
+            <version>3.1.2</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>sonatype-snapshots</id>
+            <name>sonatype-snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>

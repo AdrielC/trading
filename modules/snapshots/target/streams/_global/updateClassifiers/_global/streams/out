@@ -1,0 +1,9 @@
+[debug] not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/Users/adriel/Documents/GitHub/trading/"), "snapshots")...
+[debug] Done updating ProjectRef(uri("file:/Users/adriel/Documents/GitHub/trading/"), "snapshots")
+[debug] found version conflict(s) in library dependencies; some are suspected to be binary incompatible:
+[debug] 	* org.http4s:http4s-core_3:1.0.0-M33 (early-semver) is selected over 1.0.0-M32
+[debug] 	    +- org.http4s:http4s-server_3:1.0.0-M33               (depends on 1.0.0-M33)
+[debug] 	    +- org.http4s:http4s-dsl_3:1.0.0-M33                  (depends on 1.0.0-M33)
+[debug] 	    +- org.http4s:http4s-ember-core_3:1.0.0-M33           (depends on 1.0.0-M33)
+[debug] 	    +- org.http4s:http4s-prometheus-metrics_3:1.0.0-M32   (depends on 1.0.0-M32)

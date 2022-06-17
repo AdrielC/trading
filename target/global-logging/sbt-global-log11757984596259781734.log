@@ -1,0 +1,523 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(docker:publishLocal, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: alerts / Docker / publishLocal, snapshots / Docker / publishLocal, core / Docker / publishLocal, feed / Docker / publishLocal, forecasts / Docker / publishLocal, processor / Docker / publishLocal, domainJVM / Docker / publishLocal, domainJS / Docker / publishLocal, tracing / Docker / publishLocal, ws / Docker / publishLocal, lib / Docker / publishLocal, demo / Docker / publishLocal, Docker / publishLocal[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt 0.13 shell syntax is deprecated; use slash syntax instead: alerts / Docker / publishLocal, snapshots / Docker / publishLocal, core / Docker / publishLocal, feed / Docker / publishLocal, forecasts / Docker / publishLocal, processor / Docker / publishLocal, domainJVM / Docker / publishLocal, domainJS / Docker / publishLocal, tracing / Docker / publishLocal, ws / Docker / publishLocal, lib / Docker / publishLocal, demo / Docker / publishLocal, Docker / publishLocal[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/target/scala-3.1.2/trading-app_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/core/target/scala-3.1.2/core_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/lib/target/scala-3.1.2/lib_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/domain/js/target/scala-3.1.2/domain_sjs1_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/domain_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/processor_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/feed_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/alerts/target/scala-3.1.2/alerts_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/ws-server/target/scala-3.1.2/ws_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/forecasts/target/scala-3.1.2/forecasts_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/tracing/target/scala-3.1.2/tracing_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/snapshots_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/adriel/Documents/GitHub/trading/modules/x-demo/target/scala-3.1.2/demo_3-0.1.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#trading-app_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:57:53 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/poms/trading-app_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/poms/trading-app_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/poms/trading-app_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/poms/trading-app_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/jars/trading-app_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/jars/trading-app_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/jars/trading-app_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/jars/trading-app_3.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/srcs/trading-app_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/srcs/trading-app_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/srcs/trading-app_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/srcs/trading-app_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/docs/trading-app_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/docs/trading-app_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/docs/trading-app_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published trading-app_3 to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/docs/trading-app_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/trading-app_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#domain_sjs1_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:57:53 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/domain/js/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#domain_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:57:53 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/poms/domain_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/poms/domain_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/poms/domain_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/poms/domain_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/jars/domain_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/jars/domain_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/jars/domain_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/jars/domain_3.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/srcs/domain_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/srcs/domain_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/srcs/domain_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/srcs/domain_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/docs/domain_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/docs/domain_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/docs/domain_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/docs/domain_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/domain_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#lib_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:57:53 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/lib/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#core_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:57:53 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/core/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/poms/domain_sjs1_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/poms/domain_sjs1_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/poms/domain_sjs1_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/poms/domain_sjs1_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/jars/domain_sjs1_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/jars/domain_sjs1_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/jars/domain_sjs1_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/jars/domain_sjs1_3.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/srcs/domain_sjs1_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/srcs/domain_sjs1_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/srcs/domain_sjs1_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/srcs/domain_sjs1_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/docs/domain_sjs1_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/docs/domain_sjs1_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/docs/domain_sjs1_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published domain_sjs1_3 to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/docs/domain_sjs1_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/poms/core_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/poms/core_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/poms/core_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/poms/core_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/jars/core_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/jars/core_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/jars/core_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/jars/core_3.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/srcs/core_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/srcs/core_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/srcs/core_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/srcs/core_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/docs/core_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/docs/core_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/docs/core_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published core_3 to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/docs/core_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/core_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/poms/lib_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/poms/lib_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mmultiple main classes detected: run 'show discoveredMainClasses' to see the list[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/poms/lib_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/poms/lib_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/jars/lib_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/jars/lib_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/jars/lib_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/jars/lib_3.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/srcs/lib_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/srcs/lib_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/srcs/lib_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/srcs/lib_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/docs/lib_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/docs/lib_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/docs/lib_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published lib_3 to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/docs/lib_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/lib_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#demo_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 11:57:53 CDT 2022[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/x-demo/target/scala-3.1.2/ivy-0.1.0.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/poms/demo_3.pom (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/poms/demo_3.pom.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/poms/demo_3.pom.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/poms/demo_3.pom[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/jars/demo_3.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/jars/demo_3.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/jars/demo_3.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/jars/demo_3.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/srcs/demo_3-sources.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/srcs/demo_3-sources.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/srcs/demo_3-sources.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/srcs/demo_3-sources.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/docs/demo_3-javadoc.jar (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/docs/demo_3-javadoc.jar.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/docs/demo_3-javadoc.jar.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published demo_3 to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/docs/demo_3-javadoc.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/ivys/ivy.xml (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/ivys/ivy.xml.sha1 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/ivys/ivy.xml.md5 (non-SNAPSHOT)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	You need to remove it from the cache manually to take effect.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/adriel/.ivy2/local/dev.profunktor/demo_3/0.1.0/ivys/ivy.xml[0m
+[0m[[0m[32msuccess[0m] [0m[0mAll package validations passed[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:6e0056898203b8badf4bc6c0816b4f36240147e024634d6b228be10e08027b78[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 997B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:aad2962e07e868f3f288be8f9b22b9143201e111ff38430986a4424151a401f5[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 993B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:310b1867231a9b13ea303781831f6b2db7b3402d08e31e2ede37ebf97db96b04[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 991B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:cfe4587b5368457a0e824cb3f45d4c4abc1976aafd7d220e6126f7f2c26f699b[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 997B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:de296d2e82b07151605d7e66094bd3a2054aa8f6356b79d1d59df602c470dbd9[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 997B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:1c71b1e63a5605045104f38fd343d58cbf27a3e21b500db7f80fb876208d0e65[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 987B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:deb072e300e96d984a435cc0fae3656b9c55e720f27a4c53532300603af5dd5d[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 983B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:1bd2f5adb15595d60597601c124cb230a9e79b1ee4f4df7ae34061079d749981[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:6ebe62f693a90a09c9250aac93e12d55fba4cca76a6e90fb8b0d2f2d0cb0491a[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:391032cf361e0b5c809b07e1a2e6fc63438cbe0cecc14f685ad7299e2881f0ad[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:2f93844602f836e6659aad2e34167e150ea4fafe87a38ebbeeb0a508edb17cd5[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:3b86dc95506b8c291df7e9461dacc8798fbfd6dbe1adb7d6374ed31b941780d5[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:223367af91361a3423b080380679441ae4979110121613afccccd738407a3814[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:e0c55c7c8a6745a49a018b99d6b32a8d01f1d38cfcf3295be26ad77ac16bc0fd[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/jdk17-curl:latest[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/jdk17-curl:latest[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:abcbf664ff2ebebc800e854504293851e08a298849840b55d7636dfda0d763f1[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:abcbf664ff2ebebc800e854504293851e08a298849840b55d7636dfda0d763f1[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/jdk17-curl:latest[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:abcbf664ff2ebebc800e854504293851e08a298849840b55d7636dfda0d763f1[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/jdk17-curl:latest[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:abcbf664ff2ebebc800e854504293851e08a298849840b55d7636dfda0d763f1[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/jdk17-curl:latest[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:abcbf664ff2ebebc800e854504293851e08a298849840b55d7636dfda0d763f1[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/jdk17-curl:latest[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:abcbf664ff2ebebc800e854504293851e08a298849840b55d7636dfda0d763f1[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/jdk17-curl:latest[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:abcbf664ff2ebebc800e854504293851e08a298849840b55d7636dfda0d763f1[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [auth] library/jdk17-curl:pull token for registry-1.docker.io[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:76d512da296ec3fa7d4ba98a0061a7d8ef7f0bbd3567c426deb4c2e4184ba302[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/jdk17-curl:latest[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:abcbf664ff2ebebc800e854504293851e08a298849840b55d7636dfda0d763f1[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ERROR: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ERROR: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ERROR: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ERROR: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0m > [internal] load metadata for docker.io/library/jdk17-curl:latest:[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/jdk17-curl:latest[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:abcbf664ff2ebebc800e854504293851e08a298849840b55d7636dfda0d763f1[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ERROR: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0m > [internal] load metadata for docker.io/library/jdk17-curl:latest:[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0mfailed to solve with frontend dockerfile.v0: failed to create LLB definition: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0mfailed to solve with frontend dockerfile.v0: failed to create LLB definition: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ERROR: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ERROR: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0m > [internal] load metadata for docker.io/library/jdk17-curl:latest:[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0mfailed to solve with frontend dockerfile.v0: failed to create LLB definition: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/jdk17-curl:latest[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:abcbf664ff2ebebc800e854504293851e08a298849840b55d7636dfda0d763f1[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ERROR: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0m > [internal] load metadata for docker.io/library/jdk17-curl:latest:[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0mfailed to solve with frontend dockerfile.v0: failed to create LLB definition: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0m > [internal] load metadata for docker.io/library/jdk17-curl:latest:[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0mfailed to solve with frontend dockerfile.v0: failed to create LLB definition: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m#3 ERROR: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0m > [internal] load metadata for docker.io/library/jdk17-curl:latest:[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0m > [internal] load metadata for docker.io/library/jdk17-curl:latest:[0m
+[0m[[0m[31merror[0m] [0m[0mfailed to solve with frontend dockerfile.v0: failed to create LLB definition: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[31merror[0m] [0m[0m------[0m
+[0m[[0m[31merror[0m] [0m[0mfailed to solve with frontend dockerfile.v0: failed to create LLB definition: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=58893ff2-bb92-4304-92ee-bff0fee09a09") [0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=035642dc-41a3-4cf2-b9ef-8dcb9e849e95") [0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=a4131293-0735-45f2-8b96-430ac709618e") [0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=9914499c-e058-4604-bf77-5ccca10a4e14") [0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=7b6834c9-8986-4030-89f9-64f74dc21669") [0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=1528f8ab-7e96-4e68-8590-3f6130621dee") [0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=9b6428f3-e976-4fdf-b437-f1a34312fb40") [0m
+[0m[[0m[31merror[0m] [0m[0mError response from daemon: a prune operation is already running[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 0B[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 0B[0m
+[0m[[0m[31merror[0m] [0m[0mError response from daemon: a prune operation is already running[0m
+[0m[[0m[31merror[0m] [0m[0mError response from daemon: a prune operation is already running[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 0B[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 0B[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:680)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42(DockerPlugin.scala:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$42$adapted(DockerPlugin.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0m(alerts / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(snapshots / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(feed / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(forecasts / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(processor / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(tracing / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(ws / Docker / [31mpublishLocal[0m) Nonzero exit value: 1[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 8 s, completed Jun 16, 2022, 11:57:59 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

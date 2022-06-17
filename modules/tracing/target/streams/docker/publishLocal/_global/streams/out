@@ -1,0 +1,63 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t trading-tracing:0.1.0 -t trading-tracing:latest .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/adriel/Documents/GitHub/trading/modules/tracing/target/docker/stage[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:946541cf8fa04f06f1d4b0e59406f7fac7d4d79d98f5c5f7489529dba5e41b6a[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 1.00kB done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:3c92fb7f4048d0be72f4713fce579cc0663c53f3591c7c5c59c6aef6cb911d83[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:17-slim-buster[0m
+[0m[[0m[31merror[0m] [0m[0m#3 sha256:c5e78c43c8242948b279b9e1fc5dc268bcc471c0c1a7b45dc05a6b32d37a869c[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 1.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [stage0 1/7] FROM docker.io/library/openjdk:17-slim-buster@sha256:2e7658fb62d1c6f319ff9870614deaf8e06038dd41eec3d1ecdcfabd186234fd[0m
+[0m[[0m[31merror[0m] [0m[0m#14 sha256:46b819bc32dacf32508bad935ddc29e54e4eb6e50fac0838baf1afc74c96a090[0m
+[0m[[0m[31merror[0m] [0m[0m#14 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:de07bad1c91cb557fac1981f6c5b97fb30a64ac09b919844db8d7bd61ccea69b[0m
+[0m[[0m[31merror[0m] [0m[0m#7 transferring context: 4.54MB 1.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#7 DONE 1.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [mainstage 3/5] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:edbe99f7e4170c0eb6aea3367e086a95d567b639243db4460b202cb23755d25a[0m
+[0m[[0m[31merror[0m] [0m[0m#5 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [stage0 2/7] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:daf6d0678d6b541a18bdb361f9256b73eeeb25e6e25544f7132880dbf86d1c4e[0m
+[0m[[0m[31merror[0m] [0m[0m#6 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [stage0 3/7] COPY 2/opt /2/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#8 sha256:05412811ea3e9c42c5029c082b592d7a4d1d370ffa68737918f0ffc11eb6b898[0m
+[0m[[0m[31merror[0m] [0m[0m#8 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [stage0 4/7] COPY 4/opt /4/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#9 sha256:740e29f9aeb34d2d2a5b95e3861c6e064339f24475c44c483680a5520b8e4c50[0m
+[0m[[0m[31merror[0m] [0m[0m#9 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 6/7] RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#11 sha256:41eabc28a65d75f67463a78fa8068c63d5385ca10becfe38f47003ad2e8f4f6e[0m
+[0m[[0m[31merror[0m] [0m[0m#11 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[31merror[0m] [0m[0m#4 sha256:740c6fb31cf9c62b98ac2997a42fb18012ad54cc1e1e3cacf483c2caec9b9297[0m
+[0m[[0m[31merror[0m] [0m[0m#4 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/tracing"][0m
+[0m[[0m[31merror[0m] [0m[0m#12 sha256:5e9afb7605822226d43b87165808750984c2591c68573ce86d5690511bf377e9[0m
+[0m[[0m[31merror[0m] [0m[0m#12 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [stage0 5/7] RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#10 sha256:3c7a486833a916d13ffcfc776bf25ad5087ef6a89a8a1e62e6158b14d3ef20c5[0m
+[0m[[0m[31merror[0m] [0m[0m#10 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#13 [mainstage 4/5] COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#13 sha256:c3c95378c18310698ca7a24f02c31901f0486fd959584407feb41ed8407938f2[0m
+[0m[[0m[31merror[0m] [0m[0m#13 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [mainstage 5/5] COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#15 sha256:131dccbf62347836a7519ed8320825fdd758661a0725fcb2d8eb92d38f63317e[0m
+[0m[[0m[31merror[0m] [0m[0m#15 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#16 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 writing image sha256:32705a5ae689030506c392cc66c7b3320911cd161cb9eb04a5826dfcff039434[0m
+[0m[[0m[31merror[0m] [0m[0m#16 writing image sha256:32705a5ae689030506c392cc66c7b3320911cd161cb9eb04a5826dfcff039434 0.3s done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-tracing:0.1.0 done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/trading-tracing:latest done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 DONE 0.4s[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=f8dff872-ee9c-4140-a7d8-86480c37217f") [0m
+[0m[[0m[31merror[0m] [0m[0mError response from daemon: a prune operation is already running[0m
+[0m[[0m[31merror[0m] [0m[0mSomething went wrong while removing multi-stage intermediate image(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image trading-tracing with tags [0.1.0, latest][0m
