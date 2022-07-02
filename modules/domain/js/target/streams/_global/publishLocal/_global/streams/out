@@ -1,7 +1,7 @@
-[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#domain_sjs1_3;0.1.0 :: 0.1.0 :: release :: Thu Jun 16 22:14:45 CDT 2022[0m
-[0m[[0m[0mdebug[0m] [0m[0m	options = status=release pubdate=Thu Jun 16 22:14:45 CDT 2022 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: dev.profunktor#domain_sjs1_3;0.1.0 :: 0.1.0 :: release :: Sat Jul 02 06:36:08 CDT 2022[0m
+[0m[[0m[0mdebug[0m] [0m[0m	options = status=release pubdate=Sat Jul 02 06:36:08 CDT 2022 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
 [0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/adriel/Documents/GitHub/trading/modules/domain/js/target/scala-3.1.2/ivy-0.1.0.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deliver done (15ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	deliver done (8ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
 [0m[[0m[0mdebug[0m] [0m[0m/Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/poms/domain_sjs1_3.pom already exists, nothing done[0m
 [0m[[0m[33mwarn[0m] [0m[0mAttempting to overwrite /Users/adriel/.ivy2/local/dev.profunktor/domain_sjs1_3/0.1.0/poms/domain_sjs1_3.pom (non-SNAPSHOT)[0m

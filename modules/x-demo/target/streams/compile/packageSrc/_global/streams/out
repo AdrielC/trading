@@ -1,1 +1,33 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /Users/adriel/Documents/GitHub/trading/modules/x-demo/target/scala-3.1.2/demo_3-0.1.0-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/adriel/Documents/GitHub/trading/modules/x-demo/target/scala-3.1.2/demo_3-0.1.0-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/ErrorLifting.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/ErrorLifting.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/RefinedDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/RefinedDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/KafkaDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/KafkaDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/DerivationDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/DerivationDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/DistLockDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/DistLockDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/EffectfulContext.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/EffectfulContext.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/SignIn.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/SignIn.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/MemDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/MemDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/tracer/Engine.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/tracer/Engine.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/tracer/NT.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/tracer/NT.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/tracer/Config.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/tracer/Config.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/tracer/TraceApp.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/tracer/TraceApp.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/tracer/syntax.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/tracer/syntax.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/tracer/http/Routes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/tracer/http/Routes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	demo/tracer/db/UsersDB.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/x-demo/src/main/scala/demo/tracer/db/UsersDB.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

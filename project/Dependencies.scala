@@ -59,7 +59,7 @@ object Dependencies {
     val http4sClient = http4s("ember-client")
     val http4sCirce  = http4s("circe")
 
-    val http4sJdkWs   = "org.http4s" %% "http4s-jdk-http-client"    % V.http4sWs
+    val http4sJdkWs   = ("org.http4s" %% "http4s-jdk-http-client"    % V.http4sWs)
     val http4sMetrics = "org.http4s" %% "http4s-prometheus-metrics" % V.http4sMetrics
 
     val natchezCore      = "org.tpolecat" %% "natchez-core"      % V.natchez
@@ -83,7 +83,7 @@ object Dependencies {
 
     // test
     val monocleLaw       = "dev.optics"          %% "monocle-law"       % V.monocle
-    val scalacheck       = "org.scalacheck"      %% "scalacheck"        % V.scalacheck
+    val scalacheck       = "org.scalacheck"      % "scalacheck_3"       % V.scalacheck
     val weaverCats       = "com.disneystreaming" %% "weaver-cats"       % V.weaver
     val weaverDiscipline = "com.disneystreaming" %% "weaver-discipline" % V.weaver
     val weaverScalaCheck = "com.disneystreaming" %% "weaver-scalacheck" % V.weaver

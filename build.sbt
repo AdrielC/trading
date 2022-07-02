@@ -17,9 +17,9 @@ Global / onChangedBuildSource := ReloadOnSourceChanges
 Global / semanticdbEnabled    := true // for metals
 
 val commonSettings = List(
-  scalacOptions ++= List("-source:future"),
   scalafmtOnCompile := false, // recommended in Scala 3
   testFrameworks += new TestFramework("weaver.framework.CatsEffect"),
+//  scalacOptions += "-source:future",
   libraryDependencies ++= Seq(
     Libraries.cats,
     Libraries.catsEffect,
@@ -98,6 +98,23 @@ lazy val feed = (project in file("modules/feed"))
   )
   .dependsOn(core)
   .dependsOn(domain.jvm % "compile->compile;compile->test")
+
+
+lazy val quasar = (project in file("modules/quasar"))
+//  .enablePlugins(DockerPlugin)
+//  .enablePlugins(AshScriptPlugin)
+//  .settings(commonSettings: _*)
+//  .settings(dockerSettings("feed"))
+  .settings(scalaVersion := "2.13.4")
+  .settings(scalacOptions += "-Ytasty-reader")
+  .settings(
+    libraryDependencies += Libraries.scalacheck
+  )
+  .dependsOn(core)
+  .dependsOn(domain.jvm % "compile->compile;compile->test")
+
+
+
 
 lazy val forecasts = (project in file("modules/forecasts"))
   .enablePlugins(DockerPlugin)

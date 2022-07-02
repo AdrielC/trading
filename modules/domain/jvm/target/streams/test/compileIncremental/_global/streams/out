@@ -1,3 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mFound differing options:[0m
+[0m[[0m[0mdebug[0m] [0m[0ma: scala=-encoding,utf8,-deprecation,-feature,-unchecked,-language:experimental.macros,-language:higherKinds,-language:implicitConversions,-Ykind-projector,-Xfatal-warnings,-source:future,-Xsemanticdb,-semanticdb-target,/Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/test-meta java=[0m
+[0m[[0m[0mdebug[0m] [0m[0mb: scala=-encoding,utf8,-deprecation,-feature,-unchecked,-language:experimental.macros,-language:higherKinds,-language:implicitConversions,-Ykind-projector,-Xfatal-warnings,-Xsemanticdb,-semanticdb-target,/Users/adriel/Documents/GitHub/trading/modules/domain/jvm/target/scala-3.1.2/test-meta java=[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m

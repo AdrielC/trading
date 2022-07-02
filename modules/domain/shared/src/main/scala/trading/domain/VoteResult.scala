@@ -8,11 +8,12 @@ import io.circe.{ Decoder, Encoder, Json }
 // FIXME: Derivation does not work
 //enum VoteResult derives Eq, Show:
 enum VoteResult:
-  def asInt: Int = this match
-    case Up   => 1
-    case Down => -1
 
   case Up, Down
+
+  def asInt: Int = this match
+    case Up           => 1
+    case Down         => -1
 
 object VoteResult:
   given Eq[VoteResult]   = Eq.fromUniversalEquals

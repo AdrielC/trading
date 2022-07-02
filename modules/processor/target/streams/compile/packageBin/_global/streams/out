@@ -1,1 +1,33 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/processor_3-0.1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/processor_3-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/Config.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/Config.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/ProcessorConfig.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/ProcessorConfig.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/Engine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/Engine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/Engine.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/Engine.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/Config$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/Config$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/Engine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/Engine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/Config.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/Config.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/ProcessorConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/ProcessorConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/Main$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/Main$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/processor/ProcessorConfig$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/processor/target/scala-3.1.2/classes/trading/processor/ProcessorConfig$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

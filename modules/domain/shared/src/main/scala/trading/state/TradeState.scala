@@ -1,11 +1,11 @@
 package trading.state
 
-import trading.domain.*
+import trading.domain._
 
-import cats.derived.*
-import cats.syntax.all.*
+import cats.derived._
+import cats.syntax.all._
 import cats.{ Eq, Show }
-import io.circe.*
+import io.circe._
 import monocle.function.{ At, Index }
 import monocle.{ Focus, Optional }
 

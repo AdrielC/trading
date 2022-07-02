@@ -1,1 +1,37 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/snapshots_3-0.1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/snapshots_3-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Config.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Config.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/SnapshotsConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/SnapshotsConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Engine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Engine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Engine$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Engine$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/SnapshotsConfig.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/SnapshotsConfig.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Engine.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Engine.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Config$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Config$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Engine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Engine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Config.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Config.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Engine$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Engine$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/SnapshotsConfig$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/SnapshotsConfig$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/snapshots/Engine$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/snapshots/target/scala-3.1.2/classes/trading/snapshots/Engine$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

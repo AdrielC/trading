@@ -49,8 +49,8 @@ enum TradeCommand derives Codec.AsObject:
   )
 
 object TradeCommand:
-  given Eq[TradeCommand]   = Eq.fromUniversalEquals
-  given Show[TradeCommand] = Show.fromToString
+  implicit val eqTrade: Eq[TradeCommand]   = Eq.fromUniversalEquals
+  implicit val showTrade: Show[TradeCommand] = Show.fromToString
 
   val _CommandId: Traversal[TradeCommand, CommandId] = new:
     def modifyA[F[_]: Applicative](f: CommandId => F[CommandId])(s: TradeCommand): F[TradeCommand] =

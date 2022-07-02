@@ -3,59 +3,59 @@ package trading.domain
 import java.time.Instant
 import java.util.UUID
 
-import trading.commands.*
-import trading.domain.*
-import trading.events.*
-import trading.state.*
-import trading.ws.*
+import trading.commands._
+import trading.domain._
+import trading.events._
+import trading.state._
+import trading.ws._
 
 import cats.Order
-import cats.syntax.all.*
+import cats.syntax.all._
 import org.scalacheck.{ Arbitrary, Cogen, Gen }
+import eu.timepit.refined.auto.autoUnwrap
 
-object arbitraries:
-  import generators.*
+object arbitraries {
+  import generators._
 
-  given Arbitrary[CommandId]    = Arbitrary(commandIdGen)
-  given Arbitrary[TradeCommand] = Arbitrary(tradeCommandGen)
-  given Arbitrary[Prices]       = Arbitrary(pricesGen)
-  given Arbitrary[Price]        = Arbitrary(priceGen)
-  given Arbitrary[Quantity]     = Arbitrary(quantityGen)
-  given Arbitrary[TradeState]   = Arbitrary(tradeStateGen)
-  given Arbitrary[Timestamp]    = Arbitrary(timestampGen)
+  implicit val arbCommandId: Arbitrary[CommandId]    = Arbitrary(commandIdGen)
+  implicit val arbtradeCommandGen: Arbitrary[TradeCommand] = Arbitrary(tradeCommandGen)
+  implicit val arbpricesGen: Arbitrary[Prices]       = Arbitrary(pricesGen)
+  implicit val arbpriceGen: Arbitrary[Price]        = Arbitrary(priceGen)
+  implicit val arbquantityGen: Arbitrary[Quantity]     = Arbitrary(quantityGen)
+  implicit val arbtradeStateGen: Arbitrary[TradeState]   = Arbitrary(tradeStateGen)
+  implicit val arbtimestampGen: Arbitrary[Timestamp]    = Arbitrary(timestampGen)
+}
 
-object cogen:
-  given uuidCogen: Cogen[UUID] =
-    Cogen[(Long, Long)].contramap { uuid =>
-      uuid.getLeastSignificantBits -> uuid.getMostSignificantBits
-    }
+object cogen {
 
-  given Cogen[CommandId] =
-    uuidCogen.contramap(_.value)
+  def uuidCogen: Cogen[UUID] = Cogen[(Long, Long)].contramap { uuid =>
+    uuid.getLeastSignificantBits -> uuid.getMostSignificantBits
+  }
 
-  given Cogen[Timestamp] =
-    Cogen[String].contramap(_.toString)
+  implicit val cogenCommandId: Cogen[CommandId] = uuidCogen.contramap(_.value)
 
-  given Cogen[Quantity] =
-    Cogen.cogenInt.contramap[Quantity](_.value)
+  implicit val cogenTimestamp: Cogen[Timestamp] = Cogen[String].contramap(_.toString)
+
+  implicit val cogenQuantity: Cogen[Quantity] = Cogen.cogenInt.contramap[Quantity](_.value)
 
   given Ordering[Price] =
-    Order[Price].toOrdering
+  Order[Price].toOrdering
 
   given Cogen[Price] =
-    Cogen.bigDecimal.contramap[Price](_.value)
+  Cogen.bigDecimal.contramap[Price](_.value)
 
   given Cogen[Map[Price, Quantity]] =
-    Cogen.cogenMap[BigDecimal, Int].contramap[Map[Price, Quantity]] {
-      _.map { (k, v) => k.value -> v.value }
-    }
+  Cogen.cogenMap[BigDecimal, Int].contramap[Map[Price, Quantity]] {
+    _.map { (k, v) => k.value -> v.value }
+  }
 
   given Cogen[Prices] =
-    Cogen.tuple2[Prices.Ask, Prices.Bid].contramap[Prices] { p =>
-      p.ask -> p.bid
-    }
+  Cogen.tuple2[Prices.Ask, Prices.Bid].contramap[Prices] { p =>
+    p.ask -> p.bid
+  }
+}
 
-object generators:
+object generators {
 
   val tradeActionGen: Gen[TradeAction] =
     Gen.oneOf(TradeAction.Ask, TradeAction.Bid)
@@ -405,3 +405,4 @@ object generators:
 
   val wsInGen: Gen[WsIn] =
     Gen.oneOf(wsCloseGen, wsHeartbeatGen, wsSubscribeGen, wsUnsubscribeGen)
+}

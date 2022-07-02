@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-  <info organisation="dev.profunktor" module="domain_sjs1_3" revision="0.1.0" status="release" publication="20220616221445">
+  <info organisation="dev.profunktor" module="domain_sjs1_3" revision="0.1.0" status="release" publication="20220702063608">
     <description>domain</description>
   </info>
   <configurations>

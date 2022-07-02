@@ -15,9 +15,10 @@ import trading.trace.tracer.Honeycomb
 
 import cats.~>
 import cats.data.Kleisli
-import cats.effect.*
+import cats.effect._
+import cats.effect.implicits._
 import cats.syntax.all.*
-import com.comcast.ip4s.*
+import com.comcast.ip4s._
 import dev.profunktor.pulsar.{ Config as PulsarConfig, Pulsar }
 import fs2.Stream
 import io.circe.Codec
@@ -77,7 +78,7 @@ object TraceApp extends IOApp.Simple:
       val runner =
         names(
           nameConsumer,
-          (msg, sp) => Engine.two[IO, Eff](userProducer, db, nameConsumer.ack)(msg).run(sp)
+          (msg, sp) => Engine.two[IO, Eff](userProducer, db, nameConsumer.ack).apply(msg).run(sp)
         )
 
       Stream(
@@ -103,7 +104,7 @@ object TraceApp extends IOApp.Simple:
             val runner =
               names(
                 nameConsumer,
-                (msg, sp) => Engine.one(userProducer, db, id => Kleisli.liftF(nameConsumer.ack(id)))(msg).run(sp)
+                (msg, sp) => Engine.one(userProducer, db, id => Kleisli.liftF(nameConsumer.ack(id))).apply(msg).run(sp)
               )
 
             Stream(
@@ -132,7 +133,7 @@ object TraceApp extends IOApp.Simple:
               nameConsumer,
               (msg, sp) =>
                 Trace.ioTrace(sp).flatMap { implicit trace =>
-                  Engine.one[IO](userProducer, db, nameConsumer.ack)(msg)
+                  Engine.one[IO](userProducer, db, nameConsumer.ack).apply(msg)
                 }
             )
 

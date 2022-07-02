@@ -1,1 +1,29 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /Users/adriel/Documents/GitHub/trading/modules/lib/target/scala-3.1.2/lib_3-0.1.0-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/adriel/Documents/GitHub/trading/modules/lib/target/scala-3.1.2/lib_3-0.1.0-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/Consumer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/Consumer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/Producer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/Producer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/ext.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/ext.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/Time.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/Time.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/Logger.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/Logger.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/orphan.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/orphan.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/DistLock.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/DistLock.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/FSM.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/FSM.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/Acker.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/Acker.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/Txn.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/Txn.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/Compaction.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/Compaction.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/Shard.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/Shard.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/lib/GenUUID.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/lib/src/main/scala/trading/lib/GenUUID.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

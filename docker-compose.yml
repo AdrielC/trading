@@ -190,11 +190,11 @@ services:
       - HTTP_PORT=9002
       - REDIS_URI=redis://redis
       - PULSAR_URI=pulsar://pulsar:6650
-    depends_on:
-      pulsar:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
+#    depends_on:
+#      pulsar:
+#        condition: service_healthy
+#      redis:
+#        condition: service_healthy
 #      ws-server:
 #        condition: service_healthy
     healthcheck:

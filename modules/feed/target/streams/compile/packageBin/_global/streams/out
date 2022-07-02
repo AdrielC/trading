@@ -1,1 +1,31 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/feed_3-0.1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/feed_3-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/Config.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/Config.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/FeedConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/FeedConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/FeedConfig$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/FeedConfig$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/Feed$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/Feed$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/Config$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/Config$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/FeedConfig.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/FeedConfig.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/Config.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/Config.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/Feed.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/Feed.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	trading/feed/Feed.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/adriel/Documents/GitHub/trading/modules/feed/target/scala-3.1.2/classes/trading/feed/Feed.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
